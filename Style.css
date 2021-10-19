@@ -1,0 +1,254 @@
+*{
+background-color: aqua;
+}
+h1{
+    text-align: left;
+}
+.img1{
+    margin-left: auto;
+    margin-right: auto;
+     display: block;
+     border: aqua;
+     border-radius: 10%;
+     width: 20%;
+     }
+  .img2{
+      float: left;
+      border: aqua;
+      border-radius: 10%;
+      width: 15%;
+  }
+  .img3{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border: aqua;
+      border-radius: 10%;
+      width: 25%;
+  }
+  .img4{
+    float: left; 
+    border: aqua;
+    border-radius: 10%;
+    width: 18%;
+  }
+  .img5{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border: aqua;
+      border-radius: 10%;
+      width: 23%;
+  }
+  
+  .img6{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border: aqua;
+      border-radius: 10%;
+      width: 17%;
+   }
+#bilde1{
+    font-size: 150%;
+float: none;
+margin-left: 50%;
+text-align: right;
+margin-bottom: auto;
+margin-top: auto;
+margin-right: 4%;
+line-height: 1,3;
+width: 40%;
+}
+#bilde2{
+    font-size: 250%;
+margin-left: 20%;
+line-height: 1,3;
+width: 40%;
+}
+#bilde3{
+    font-size: 90%;
+    float: right;
+ margin-right: 4%;
+line-height: 1,3;
+width: 40%;
+}
+#bilde4{
+    font-size: 90%;
+    margin-left: 20%;
+    line-height: 1,3;
+    width: 40%;  
+}
+#bilde5{
+    font-size: 90%;
+ float: right;
+ margin-right: 4%;
+line-height: 1,3;
+width: 40%;
+}
+#bilde6{
+    font-size: 90%;
+    text-align: right;
+    margin-right: 10%;
+line-height: 1,3;
+width: 40%;
+}
+@media all and (min-width: 1001px) {
+    #bilde1 {
+        font-size: x-large;
+      font-style: italic;
+      color:crimson;
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    #bilde1{
+        font-size: larger;
+      font-style: italic;
+      color:darkblue;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    #bilde1{
+        font-size: large;
+        font-style: italic;
+        color:orchid;
+    }
+  }
+  @media all and (min-width: 1001px) {
+    #bilde2{
+        font-size: x-large;
+      font-style: italic;
+      color:crimson;
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    #bilde2{
+        font-size: larger;
+        font-style: italic;
+        color:darkblue;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    #bilde2{
+        font-size: large;
+        font-style: italic;
+        color:orchid;
+    }
+  }@media all and (min-width: 1001px) {
+    #bilde3 {
+        font-size: x-large;
+      font-style: italic;
+      color:crimson;
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    #bilde3{
+        font-size: larger;
+        font-style: italic;
+        color:darkblue;
+    }
+  }
+  
+  @media all and (max-width: 699px) {
+    #bilde3{
+        font-size: large;
+        font-style: italic;
+        color:orchid;
+    }
+  }@media all and (min-width: 1001px) {
+    #bilde4{
+        font-size: x-large;
+      font-style: italic;
+      color:crimson;
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    #bilde4{
+        font-size: larger;
+        font-style: italic;
+        color:darkblue;
+    }
+  }
+  
+  @media all and (max-width: 699px) {
+    #bilde4{
+        font-size: large;
+        font-style: italic;
+        color:orchid;
+    }
+  }@media all and (min-width: 1001px) {
+    #bilde5 {
+    
+      font-size:x-large;
+      font-style: italic;
+      color:crimson;
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    #bilde5 {
+        font-size: larger;
+        font-style: italic;
+        color:darkblue;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    #bilde5 {
+        font-size: large;
+        font-style: italic;
+        color:orchid;
+    }
+  }@media all and (min-width: 1001px) {
+    #bilde6 {
+        font-size: x-large;
+      font-style: italic;
+      color:crimson
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    #bilde6 {
+        font-size: larger;
+        font-style: italic;
+        color:darkblue;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    #bilde6 {
+        font-size: large;
+        font-style: italic;
+        color:orchid;
+    
+    }
+  }
+  @media all and (min-width: 1001px) {
+    h1 {
+        font-size: xx-large;
+      font-style: italic;
+      color:crimson;
+    }
+  }
+  
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    h1{
+        font-size: x-large;
+      font-style: italic;
+      color:darkblue;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    h1{
+        font-size: larger;
+        font-style: italic;
+        color:orchid;
+    }
+  }
