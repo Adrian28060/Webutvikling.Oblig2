@@ -4,6 +4,7 @@ background-color: aqua;
 h1{
     text-align: left;
 }
+@media all and (min-width: 1001px) {
 .img1{
     margin-left: auto;
     margin-right: auto;
@@ -12,12 +13,16 @@ h1{
      border-radius: 10%;
      width: 20%;
      }
+    }
+    @media all and (min-width: 1001px) {
   .img2{
       float: left;
       border: aqua;
       border-radius: 10%;
       width: 15%;
   }
+}
+@media all and (min-width: 1001px) {
   .img3{
       margin-left: auto;
       margin-right: auto;
@@ -26,12 +31,16 @@ h1{
       border-radius: 10%;
       width: 25%;
   }
+}
+@media all and (min-width: 1001px) {
   .img4{
     float: left; 
     border: aqua;
     border-radius: 10%;
     width: 18%;
   }
+}
+@media all and (min-width: 1001px) {
   .img5{
       margin-left: auto;
       margin-right: auto;
@@ -40,7 +49,8 @@ h1{
       border-radius: 10%;
       width: 23%;
   }
-  
+}
+@media all and (min-width: 1001px) {
   .img6{
       margin-left: auto;
       margin-right: auto;
@@ -49,6 +59,7 @@ h1{
       border-radius: 10%;
       width: 17%;
    }
+  }
 #bilde1{
     font-size: 150%;
 float: none;
@@ -114,6 +125,7 @@ width: 40%;
         font-size: large;
         font-style: italic;
         color:orchid;
+        margin-top: 5%;
     }
   }
   @media all and (min-width: 1001px) {
@@ -129,6 +141,7 @@ width: 40%;
         font-size: larger;
         font-style: italic;
         color:darkblue;
+        margin-top: 32%;
     }
   }
   
@@ -137,6 +150,7 @@ width: 40%;
         font-size: large;
         font-style: italic;
         color:orchid;
+        margin-top: 10%;
     }
   }@media all and (min-width: 1001px) {
     #bilde3 {
@@ -173,6 +187,7 @@ width: 40%;
         font-size: larger;
         font-style: italic;
         color:darkblue;
+        margin-top: 56%;
     }
   }
   
@@ -181,6 +196,7 @@ width: 40%;
         font-size: large;
         font-style: italic;
         color:orchid;
+        margin-top: 20%;
     }
   }@media all and (min-width: 1001px) {
     #bilde5 {
@@ -229,6 +245,140 @@ width: 40%;
     
     }
   }
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    .img1 {
+       margin-left: 30%;
+       margin-left: auto;
+    margin-right: auto;
+     display: block;
+     border: aqua;
+     border-radius: 10%;
+     width: 32%;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    .img1 {
+       margin-left: 50%;
+       margin-left: auto;
+    margin-right: auto;
+     display: block;
+     border: aqua;
+     border-radius: 10%;
+     width: 45%;
+    }
+  }
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    .img2 {
+       margin-left: 30%;
+       float: left;
+       border: aqua;
+       border-radius: 10%;
+       width: 22%;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    .img2 {
+       margin-left: 50%;
+       float: left;
+       border: aqua;
+       border-radius: 10%;
+       width: 30%;
+       margin-top: 5%;
+    }
+  }
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    .img3 {
+       margin-left: 30%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       border: aqua;
+       border-radius: 10%;
+       width: 27%;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    .img3 {
+       margin-left: 50%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       border: aqua;
+       border-radius: 10%;
+       width: 30%;
+    }
+  }
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    .img4 {
+       margin-left: 30%;
+       margin-top: 5%;
+       float: left; 
+    border: aqua;
+    border-radius: 10%;
+    width: 28%;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    .img4 {
+       margin-left: 50%;
+       float: left; 
+    border: aqua;
+    border-radius: 10%;
+    width: 30%;
+    }
+  }
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    .img5 {
+       margin-left: 30%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       border: aqua;
+       border-radius: 10%;
+       width: 26%;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    .img5 {
+       margin-left: 50%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       border: aqua;
+       border-radius: 10%;
+       width: 35%;
+    }
+  }
+  @media all and (max-width: 1000px) and (min-width: 700px) {
+    .img6 {
+        margin-left: 30%;
+        margin-top: 10%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: aqua;
+        border-radius: 10%;
+        width: 36%;
+    }
+  }
+  
+  @media all and (max-width: 699px){
+    .img6{
+       margin-left: 50%;
+       margin-top: 60%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
+       border: aqua;
+       border-radius: 10%;
+       width: 40%;
+    }
+    }
   @media all and (min-width: 1001px) {
     h1 {
         font-size: xx-large;
